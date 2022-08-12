@@ -1,0 +1,4 @@
+E:/Projects-on-Github/Notes About Library/simple-libraray-creation/build/CMakeFiles/hello_lib.dir
+E:/Projects-on-Github/Notes About Library/simple-libraray-creation/build/CMakeFiles/simple-example.dir
+E:/Projects-on-Github/Notes About Library/simple-libraray-creation/build/CMakeFiles/edit_cache.dir
+E:/Projects-on-Github/Notes About Library/simple-libraray-creation/build/CMakeFiles/rebuild_cache.dir
