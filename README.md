@@ -12,4 +12,4 @@ Here we simple library called **`hello_lib`** and link with  **`simple-example`*
                 ├───hello.cpp
                 ├───hello.hpp
                 └───main.cpp
-                ( **simple-libraray-creation** folder structure )
+                ( < simple-libraray-creation > folder structure )
