@@ -13,4 +13,4 @@ add_executable(simple-example main.cpp)  # <-- 'simple-example' is executable-na
 
 target_link_libraries(simple-example  PRIVATE   hello_lib)  # With help of this method we linking the library ( hello_lib ) with executable (simple_example) 
 
-#                   executable-name             library name 
+#                   executable-name             library name
