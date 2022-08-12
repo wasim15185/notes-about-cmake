@@ -1,7 +1,7 @@
 
-### Example 1. simple-libraray-creation 
-#
+### Example 1 . simple-libraray-creation 
+# (Here we create simple library)
 
 <p> 
-Here we simple
+Here we simple library called `hello_lib` and link with  `simple-example` executable
 </p>
