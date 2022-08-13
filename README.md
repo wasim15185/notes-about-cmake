@@ -24,5 +24,11 @@ Here we simple library called **`hello_lib`** and link with  **`simple-example`*
 
 `add_library(lib_name file1.cpp file2.cpp file3.hpp ...)` <- this line is creating library
 
+that's why i write to create library `add_library( hello_lib  hello.hpp hello.cpp )` in Root `CMakeLists`
+                                                    |           |           |
+                                                                 ------------
+                                              **Lib-Name**         **Cpp Files**       
+
+
 
 
