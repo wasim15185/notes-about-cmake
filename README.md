@@ -36,4 +36,4 @@ that's why i write to create executable where `simple-example` *executable-name*
 
 `target_link_libraries(executable-name  PRIVATE/PUBLIC   lib_name)` <-- this line is *linking* **library** with **executable**
 
-here we *linking*  **simple-example** executable with **hello_lib** library `target_link_libraries(simple-example  PRIVATE   hello_lib)`
+here we *linking*  **simple-example** *executable* with **hello_lib** *library* using `target_link_libraries(simple-example  PRIVATE   hello_lib)`
