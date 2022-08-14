@@ -95,4 +95,6 @@ int main()
 Inside `CMakeLists.txt` of `main` folder 
 we add `target_link_libraries(Main  PRIVATE   math_lib)` <-- Where `Main` is executable & `math_lib` library
 
+library linked with executable
 
+**Final-step in**
