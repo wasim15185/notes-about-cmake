@@ -38,6 +38,11 @@ that's why i write to create executable where `simple-example` *executable-name*
 
 here we *linking*  `simple-example` **executable** with `hello_lib` **library** using `target_link_libraries(simple-example  PRIVATE   hello_lib)`
 
+
+## Example 1 . sub-dir-library-creation
+#### (Here we create sub-dir-library)
+
+
                     sub-dir-library-creation
                             └───build (dir) 
                             │
