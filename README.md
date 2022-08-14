@@ -44,7 +44,7 @@ here we *linking*  `simple-example` **executable** with `hello_lib` **library** 
                             │ 
                             ├───main(dir)
                             │    └───main.cpp
-                            │      └───CMakeLists.txt   
+                            │    └───CMakeLists.txt   
                             │    
                             │ 
                             └───math(dir)
