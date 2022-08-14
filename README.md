@@ -62,3 +62,11 @@ here we *linking*  `simple-example` **executable** with `hello_lib` **library** 
 
 **First-Step (Creating `math` Library) :**
 There have `CMakeLists.txt` & `src` in `math` folder . And the *add.cpp* & *add.hpp* is nested there .
+
+Inside `CMakeLists.txt` : 
+
+we add `add_library(math_lib  src/add/add.hpp  src/add/add.cpp)` <-- Where **`math_lib`** is `Library-Name`
+
+then we added `target_include_directories(math_lib PUBLIC "${CMAKE_CURRENT_SOURCE_DIR/src}")` <- This helps esalier to include directory in include system `CMAKE_CURRENT_SOURCE_DIR`means the  **current CMakeList location indicrectory** (know about read the open this CMakeLists.txt)
+
+**Second-Step (linking `math` Library with `simple-example-two`) :**

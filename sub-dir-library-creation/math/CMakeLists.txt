@@ -8,4 +8,5 @@ add_library(
     src/add/add.cpp
 )
 
-target_include_directories(math_lib PUBLIC "${CMAKE_CURRENT_SOURCE_DIR/src}")
+target_include_directories(math_lib PUBLIC "${CMAKE_CURRENT_SOURCE_DIR/src}") # kaj library include e help kora eg:  amra jodi jekono jaiga the "add.hpp" or "add.cpp" include korte chai tahole sekhane include"src/add/add.hpp" likhi tahole library import hoye gelo
+      #                                   "this CMakeLists.txt current location"/src                                  
