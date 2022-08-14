@@ -82,16 +82,12 @@ then we added `target_include_directories(math_lib PUBLIC "${CMAKE_CURRENT_SOURC
 #include"src/add/add.hpp"  // <-- See just write  'src/add/add.hpp' then add_lib is included
 #include<iostream>
  
-int main(int argc, char const *argv[])
+int main()
 {
-    
-
     std::cout<<add(2,3)<<std::endl ;
-
 
     return 0;
 }
-
 ```
 
 **Second-Step (linking `math` Library with `Main` executable) :** 
