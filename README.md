@@ -58,3 +58,7 @@ here we *linking*  `simple-example` **executable** with `hello_lib` **library** 
                             └───CMakeLists.txt 
 
                             ( sub-dir-library-creation  folder structure )
+
+
+**First-Step (Creating `math` Library) :**
+There have `CMakeLists.txt` & `src` in `math` folder . And the *add.cpp* & *add.hpp* is nested there .
