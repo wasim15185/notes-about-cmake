@@ -1,0 +1,4 @@
+E:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build/CMakeFiles/ALL_BUILD.dir
+E:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build/CMakeFiles/ZERO_CHECK.dir
+E:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build/math/CMakeFiles/math_lib.dir
+E:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build/main/CMakeFiles/simple-example-two.dir

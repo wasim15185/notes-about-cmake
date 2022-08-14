@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\math\src\add\add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\math\src\add\add.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\math\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB90FE64-8915-3FF3-886C-7BBA55203939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{200BA1F4-150C-3B42-8080-89354F7AC626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

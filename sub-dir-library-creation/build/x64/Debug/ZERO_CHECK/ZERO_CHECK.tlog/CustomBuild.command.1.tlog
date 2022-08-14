@@ -1,0 +1,10 @@
+^E:\PROJECTS-ON-GITHUB\NOTES ABOUT LIBRARY\SUB-DIR-LIBRARY-CREATION\BUILD\CMAKEFILES\CEDCFDB7FF2A6FE4F28FC0D81F365E7C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Projects-on-Github/Notes About Library/sub-dir-library-creation" "-BE:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Projects-on-Github/Notes About Library/sub-dir-library-creation/build/notes-about-library.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

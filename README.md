@@ -37,3 +37,24 @@ that's why i write to create executable where `simple-example` *executable-name*
 `target_link_libraries(executable-name  PRIVATE/PUBLIC   lib_name)` <-- this line is *linking* **library** with **executable**
 
 here we *linking*  `simple-example` **executable** with `hello_lib` **library** using `target_link_libraries(simple-example  PRIVATE   hello_lib)`
+
+                    sub-dir-library-creation
+                            └───build (dir) 
+                            │
+                            │ 
+                            ├───main(dir)
+                            │    └───main.cpp
+                            │      └───CMakeLists.txt   
+                            │    
+                            │ 
+                            └───math(dir)
+                            │    └───src (dir)
+                            │        └───add (dir)
+                            │            └───add.hpp
+                            │            └───add.cpp
+                            │            └───CMakeLists.txt  
+                            │
+                            │
+                            └───CMakeLists.txt 
+
+                            ( sub-dir-library-creation  folder structure )
