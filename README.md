@@ -97,4 +97,9 @@ we add `target_link_libraries(Main  PRIVATE   math_lib)` <-- Where `Main` is exe
 
 library linked with executable
 
-**Final-step **
+**Final-step**
+
+In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(main)`
+
+`add_subdirectory(math)` <-- this for add `math` folder
+`add_subdirectory(main)` <-- this for add `main` folder
