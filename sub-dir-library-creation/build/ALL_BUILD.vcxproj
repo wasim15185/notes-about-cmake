@@ -173,13 +173,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\build\main\Main.vcxproj">
+      <Project>{20351004-9125-3C3F-9F87-328FF726CA49}</Project>
+      <Name>Main</Name>
+    </ProjectReference>
     <ProjectReference Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\build\math\math_lib.vcxproj">
       <Project>{008C8724-3279-3C80-AF39-787B3F3B369F}</Project>
       <Name>math_lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="E:\Projects-on-Github\Notes About Library\sub-dir-library-creation\build\main\simple-example-two.vcxproj">
-      <Project>{A46E293E-AB4E-3435-B723-33620195D902}</Project>
-      <Name>simple-example-two</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

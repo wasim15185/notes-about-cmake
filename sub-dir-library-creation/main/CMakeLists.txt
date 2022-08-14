@@ -1,3 +1,3 @@
-add_executable(simple-example-two main.cpp)  # <-- 'simple-example-two' is executable-name
+add_executable(Main main.cpp)  # <-- 'simple-example-two' is executable-name
 
-target_link_libraries(simple-example-two  PRIVATE   math_lib) 
+target_link_libraries(Main  PRIVATE   math_lib) 
