@@ -100,7 +100,7 @@ In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(
 `add_subdirectory(math)` <-- this for add `math` folder **(This will alaways add before `main` )**
 `add_subdirectory(main)` <-- this for add `main` folder
 
-#### sub-dir-library-creation\CMakeLists.txt (Root CMakeLists.txt)
+**path :**  **`sub-dir-library-creation\CMakeLists.txt` (Root CMakeLists.txt)**
 
 ```cmake_minimum_required(VERSION 3.8)
 
