@@ -102,4 +102,5 @@ library linked with executable
 In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(main)`
 
 `add_subdirectory(math)` <-- this for add `math` folder
+`add_subdirectory(main)` <-- this for add `main` folder
  
