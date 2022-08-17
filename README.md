@@ -1,9 +1,9 @@
 
-## Example 1 . simple-libraray-creation 
+## Example 1 . simple-libraray-creation
+
 #### (Here we create simple library)
 
-
-Here we simple library called **`hello_lib`** and link with  **`simple-example`** executable 
+Here we simple library called **`hello_lib`** and link with  **`simple-example`** executable
 
             simple-libraray-creation
                 └───build (folder) 
@@ -14,23 +14,21 @@ Here we simple library called **`hello_lib`** and link with  **`simple-example`*
                 └───main.cpp
                 (  simple-libraray-creation  folder structure )
 
+### Now we will how to create simple library
 
-### Now we will how to create simple library !
-
-
-**Note** there no sub dircectory there are **no extra CMakeLists** there are **Only one CMakeLists** 
+**Note** there no sub dircectory there are **no extra CMakeLists** there are **Only one CMakeLists**
 
 **First-step (Creating Library) :**
 
 `add_library(lib_name file1.cpp file2.cpp file3.hpp ...)` <-- this line is **creating library** *(Static Library [by default])*
 
-that's why i write to create library where `hello_lib` *library-name* `add_library( hello_lib  hello.hpp hello.cpp )` in Root `CMakeLists` 
+that's why i write to create library where `hello_lib` *library-name* `add_library( hello_lib  hello.hpp hello.cpp )` in Root `CMakeLists`
 
 **Second-step (Creating executable) :**
 
-`add_executable(executable-name main1.cpp ,main2.cpp)` <-- this line is **creating executable**   
+`add_executable(executable-name main1.cpp ,main2.cpp)` <-- this line is **creating executable**
 
-that's why i write to create executable where `simple-example` *executable-name* `add_executable(simple-example main.cpp)` in Root `CMakeLists` 
+that's why i write to create executable where `simple-example` *executable-name* `add_executable(simple-example main.cpp)` in Root `CMakeLists`
 
 **Third-step (Linking the Library with executable) :**
 
@@ -38,10 +36,9 @@ that's why i write to create executable where `simple-example` *executable-name*
 
 here we *linking*  `simple-example` **executable** with `hello_lib` **library** using `target_link_libraries(simple-example  PRIVATE   hello_lib)`
 
-
 ## Example 2 . sub-dir-library-creation
-#### (Here we create sub-dir-library)
 
+#### (Here we create sub-dir-library)
 
                     sub-dir-library-creation
                             └───build (dir) 
@@ -64,11 +61,10 @@ here we *linking*  `simple-example` **executable** with `hello_lib` **library** 
 
                             ( sub-dir-library-creation  folder structure )
 
-
 **First-Step (Creating `math` Library) :**
 There have `CMakeLists.txt` & `src` in `math` folder . And the *add.cpp* & *add.hpp* is nested there .
 
-Inside `CMakeLists.txt` : 
+Inside `CMakeLists.txt` :
 
 we add `add_library(math_lib  src/add/add.hpp  src/add/add.cpp)` <-- Where **`math_lib`** is `Library-Name`
 
@@ -90,13 +86,13 @@ int main()
 }
 ```
 
-**Second-Step (linking `math` Library with `Main` executable) :** 
+**Second-Step (linking `math` Library with `Main` executable) :**
 
-Inside `CMakeLists.txt` of `main` folder 
+Inside `CMakeLists.txt` of `main` folder
 we add `target_link_libraries(Main  PRIVATE   math_lib)` <-- Where `Main` is executable & `math_lib` library
 
 library linked with executable
- 
+
 **Final-step**
 
 In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(main)`
@@ -104,12 +100,14 @@ In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(
 `add_subdirectory(math)` <-- this for add `math` folder **(This will alaways add before `main` )**
 `add_subdirectory(main)` <-- this for add `main` folder
 
+#### sub-dir-library-creation\CMakeLists.txt (Root CMakeLists.txt)
+
 ```cmake_minimum_required(VERSION 3.8)
 
+<<<<<<< HEAD
 project("notes-about-library")
 
 
 add_subdirectory(math) # see that i write "math" before "main" because math is library and this library liking with "main" which containing executable
 add_subdirectory(main)
 ```
- 
