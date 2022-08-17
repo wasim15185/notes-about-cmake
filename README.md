@@ -96,14 +96,10 @@ Inside `CMakeLists.txt` of `main` folder
 we add `target_link_libraries(Main  PRIVATE   math_lib)` <-- Where `Main` is executable & `math_lib` library
 
 library linked with executable
-
-<<<<<<< HEAD
+ 
 **Final-step**
 
 In the root `CMakeLists.txt` I add `add_subdirectory(math)` & `add_subdirectory(main)`
 
 `add_subdirectory(math)` <-- this for add `math` folder
-`add_subdirectory(main)` <-- this for add `main` folder
-=======
-**Final-step **
->>>>>>> 9cbed79 (add sub-dir-library-creation tutorial)
+ 
